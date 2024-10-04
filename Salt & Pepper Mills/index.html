@@ -3,55 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wild Rescues: Home</title>
+    <title>Salt & Pepper Mills</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            text-align: center;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+        }
+        .logo {
+            width: 100px; /* Smaller logo size */
+            height: auto;
+            margin-right: 10px;
+        }
+        h1 {
+            font-size: 24px; /* Adjusted heading size */
+            font-weight: bold; /* Bold text */
+            text-transform: uppercase; /* Uppercase text */
+            font-family: 'Lemon Milk', sans-serif; /* Lemon Milk font */
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        .images {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .images img {
+            width: 300px; /* Set a width for the images */
+            height: auto; /* Maintain aspect ratio */
+            margin: 0 10px; /* Space between images */
+        }
+    </style>
 </head>
 <body>
-    <!--
-       Student Name: Anandhu Yegesh
-       File Name: index.html
-       Date: [Enter Date Here]
-    -->
     <header>
-        <h1>&#128062; Wild Rescues</h1>
-        <h3>Rescue. Rehabilitate. Release.</h3>
+        <img src="images/logo.png" alt="Salt & Pepper Mills Logo" class="logo">
+        <h1>Salt & Pepper Mills</h1>
     </header>
     <nav>
-        <p>
-            <a href="index.html">Home</a> &nbsp; &#9672; &nbsp; 
-            <a href="about.html">About Us</a> &nbsp; &#9672; &nbsp; 
-            <a href="partnership.html">Partnership</a> &nbsp; &#9672; &nbsp; 
-            <a href="gallery.html">Gallery</a> &nbsp; &#9672; &nbsp; 
-            <a href="faqs.html">FAQs</a> &nbsp; &#9672; &nbsp; 
-            <a href="contact.html">Contact</a>
-        </p>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
     </nav>
-    <!-- Use the main area to add the main content to the webpage -->
     <main>
-        <div id="welcome">
-            <p>Welcome to Wild Rescues. Our mission is to rescue, rehabilitate,
-                and release wildlife back into their natural environment. We are a nonprofit organization dedicated to helping injured wildlife.</p>
-
-            <p>Our staff provides around-the-clock care for wildlife in need. We
-                also provide long-term care for wildlife that cannot be released back
-                into their natural environment.</p>
-
-            <p>Will you partner with us? We need caring volunteers to help care
-                for our animals. You can also donate, become a member, or become a
-                sponsor. Contact us today.</p>
-        </div> <!-- End of welcome div -->
-
-        <div id="latest">
-            <h2>Our Latest Rescue: Baby Raccoons</h2>
-            <img src="Images/baby-raccoons.jpg" alt="Hands holding three baby raccoons"/>
-            <p>Meet our latest rescues, Fizz, Bandit, and Mohawk. These three little guys were found abandoned near a home.</p>
-        </div> <!-- End of latest div -->
+        <section class="hero">
+            <p>Explore our finest selection of salt and pepper mills.</p>
+        </section>
+        <section class="images">
+            <img src="images/saltmill.jpg" alt="Image of Salt Mill">
+            <img src="images/peppermill.jpeg" alt="Image of Pepper Mill">
+        </section>
     </main>
     <footer>
-        <p>&copy; Copyright 2021. All Rights Reserved.</p>
-        <p>
-            <a href="mailto:contact@wildrescues.net">contact@wildrescues.net</a> <!-- Email link -->
-        </p>
+        <p>&copy; 2024 Salt & Pepper Mills. All rights reserved.</p>
     </footer>
-
 </body>
 </html>
+
+
+
+

@@ -3,43 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wild Rescues: Contact</title>
+    <title>Contact - Salt & Pepper Mills</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            text-align: center;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+        }
+        .logo {
+            width: 100px; /* Smaller logo size */
+            height: auto;
+            margin-right: 10px;
+        }
+        h1 {
+            font-size: 24px; /* Adjusted heading size */
+            font-weight: bold; /* Bold text */
+            text-transform: uppercase; /* Uppercase text */
+            font-family: 'Lemon Milk', sans-serif; /* Lemon Milk font */
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+    </style>
 </head>
 <body>
-    <!--
-       Student Name: Anandhu Yegesh
-       File Name: contact.html
-       Date: 2024-09-26
-    -->
     <header>
-        <h1>&#128062; Wild Rescues</h1>
-        <h3>Rescue. Rehabilitate. Release.</h3>
+        <img src="images/logo.png" alt="Salt & Pepper Mills Logo" class="logo">
+        <h1>Salt & Pepper Mills</h1>
     </header>
     <nav>
-        <p>
-            <a href="index.html">Home</a> &nbsp; &#9672; &nbsp; 
-            <a href="about.html">About Us</a> &nbsp; &#9672; &nbsp; 
-            <a href="partnership.html">Partnership</a> &nbsp; &#9672; &nbsp; 
-            <a href="gallery.html">Gallery</a> &nbsp; &#9672; &nbsp; 
-            <a href="faqs.html">FAQs</a> &nbsp; &#9672; &nbsp; 
-            <a href="contact.html">Contact</a>
-        </p>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
     </nav>
-    <!-- Use the main area to add the main content to the webpage -->
     <main>
-        <div id="contact">
-            <h2>You can reach us at:</h2>
-            <p>Office: (814) 555-8989</p>
-            <p>Email: <a href="mailto:contact@wildrescues.net">contact@wildrescues.net</a></p>
-            <p>Address: <a href="https://maps.app.goo.gl/VuKhZ6r44kCNNZwS7" target="_blank">8989 Rescue Drive, Ocala, FL 34471</a></p>
-        </div> <!-- End of contact div -->
+        <section class="contact-details">
+            <h2>Contact Us</h2>
+            <p>Email: <a href="mailto:saltandpeppermills@gmail.com">saltandpeppermills@gmail.com</a></p>
+            <p>Phone: <a href="tel:+14376556544">(437) 655-6544</a></p>
+            <h2>Location:</h2>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22403.755429288187!2d-75.68325798437502!3d45.42003770000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce057ea62f3f57%3A0xf7266f3f8cf01110!2sCanadian%20Tire!5e0!3m2!1sen!2sca!4v1728079686779!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
     </main>
     <footer>
-        <p>&copy; Copyright 2021. All Rights Reserved.</p>
-        <p>
-            <a href="mailto:contact@wildrescues.net">contact@wildrescues.net</a> <!-- Email link -->
-        </p>
+        <p>&copy; 2024 Salt & Pepper Mills. All rights reserved.</p>
     </footer>
-
 </body>
 </html>
