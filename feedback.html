@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Feedback</title>
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style/index.css">
-    <link rel="stylesheet" href="style/contact.css">
+    <link rel="stylesheet" href="style/feedback.css">
     <link href="https://fonts.googleapis.com/css?family=Francois+One|Roboto+Slab&display=swap" rel="stylesheet">
 </head>
 
@@ -31,38 +31,48 @@
 
     <!-- Main Content -->
     <main>
-        <section id="contact">
-            <div class="container">
-                <h2>Contact Us</h2>
-                <form action="" method="post">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
+       
         
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
+        <section id="feedback">
+            <h2 class="feedbackh2">Feedback</h2>
+            <p class="feedbackp">We would love to hear your thoughts on our work. Please provide your feedback below.</p>
         
-                    <label for="phone">Phone Number:</label>
-                    <input type="tel" id="phone" name="phone" required>
+            <!-- Testimonials Section -->
+<div class="testimonials">
+    <h3>What Our Clients Say</h3>
+    <div class="testimonial">
+        <img src="images/customer1.jpg" alt="Emily Carter" class="testimonial-photo">
+        <p>"The quality of these mills is exceptional. They have truly elevated our cooking experience. Highly recommend!"</p>
+        <p>- Emily Carter, Home Chef</p>
+    </div>
+    <div class="testimonial">
+        <img src="images/customer2.jpg" alt="Michael Brown" class="testimonial-photo">
+        <p>"Beautiful design and excellent functionality. These mills are a must-have in any kitchen."</p>
+        <p>- Michael Brown, Culinary Enthusiast</p>
+    </div>
+    <div class="testimonial">
+        <img src="images/customer3.jpg" alt="Sophia Johnson" class="testimonial-photo">
+        <p>"Amazing customer service and top-notch products. I am thoroughly impressed with my purchase."</p>
+        <p>- Sophia Johnson, Food Blogger</p>
+    </div>
+</div>
 
-                    <label for="service-type">Type:</label>
-                    <select id="service-type" name="service_type" required>
-                        <option value="maintenance">Salt</option>
-                        <option value="repair">Pepper</option>
-                    </select>
         
-                    <label for="car-model">Model:</label>
-                    <input type="text" id="car-model" name="car_model" required>
-
-        
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" required></textarea>
-        
-                    <button type="submit">Send Message</button>
-                </form>
-            </div>
+            <!-- Feedback Form -->
+            <form action="#" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Your Feedback:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Submit Feedback</button>
+            </form>
         </section>
         <br>
- 
     </main>
 
     <!-- Footer -->
